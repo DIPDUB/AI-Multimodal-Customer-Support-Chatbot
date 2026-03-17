@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDlBF7qO3uyqvnIcphuFb-YuhG-qLj-6iA"
+os.environ["GOOGLE_API_KEY"] = "YOUR API KEY"
 
 st.title("PDF Question Answering Chatbot")
 
