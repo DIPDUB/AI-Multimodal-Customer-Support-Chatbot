@@ -2,7 +2,7 @@ import streamlit as st
 from langdetect import detect
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDlBF7qO3uyqvnIcphuFb-YuhG-qLj-6iA")
+genai.configure(api_key="YOUR API KEY")
 
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 
