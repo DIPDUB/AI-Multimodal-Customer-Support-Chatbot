@@ -13,7 +13,7 @@ from PIL import Image
 
 import google.generativeai as genai
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDlBF7qO3uyqvnIcphuFb-YuhG-qLj-6iA"
+os.environ["GOOGLE_API_KEY"] = "YOUR API KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 ## Function to load OpenAI model and get respones
